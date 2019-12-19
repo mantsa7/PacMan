@@ -47,9 +47,9 @@ def draw_3 (xG, yG):
 def draw_4 (xG, yG):
     canv.create_rectangle (xG - 4, yG - 6, xG, yG - 2, fill = 'blue', outline = 'blue', tag = 'Ghost')
     canv.create_rectangle (xG + 8, yG - 6, xG + 12, yG - 2, fill = 'blue', outline = 'blue', tag = 'Ghost')
-#def draw_5 (xG, yG):
-    #canv.create_rectangle (xG - 4, yG - 8, xG, yG - 4, fill = 'blue', outline = 'blue', tag = 'Ghost')
-    #canv.create_rectangle (xG + 8, yG - 8, xG + 12, yG - 4, fill = 'blue', outline = 'blue', tag = 'Ghost')
+def draw_5 (xG, yG):
+    canv.create_rectangle (xG - 4, yG - 8, xG, yG - 4, fill = 'blue', outline = 'blue', tag = 'Ghost')
+    canv.create_rectangle (xG + 8, yG - 8, xG + 12, yG - 4, fill = 'blue', outline = 'blue', tag = 'Ghost')
 def draw_6 (xG, yG):
     canv.create_rectangle (xG - 12, yG - 6, xG - 8, yG - 2, fill = 'blue', outline = 'blue', tag = 'Ghost')
     canv.create_rectangle (xG, yG - 6, xG + 4, yG - 2, fill = 'blue', outline = 'blue', tag = 'Ghost')  
